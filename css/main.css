@@ -1,21 +1,36 @@
 html {
   box-sizing: border-box;
-  font-family: sans-serif;
   line-height: 1.5;
-  margin: 0;
-}
+  font-family: Merriweather, serif;
+	}
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
 body {
+  font-size: .9rem;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, dt {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+.banner-text h2, .banner-text p {
   margin: 0;
 }
 
-header {
-  display: flex;
-  background-color: #e2e2e2;
-  flex-direction: row;
-  align-items: center;
+figcaption {
+  padding: .2rem 1.2rem;
 }
